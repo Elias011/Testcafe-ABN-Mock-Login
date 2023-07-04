@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe --app \"http-server ./testautomation-web/testautomation-web/ -s\"",
+    "test-chrome": "npx testcafe chrome --app \"http-server ./testautomation-web/testautomation-web/ -s\"",
+    "test-edge": "npx testcafe edge --app \"http-server ./testautomation-web/testautomation-web/ -s\"",
+    "test-firefox": "npx testcafe firefox --app \"http-server ./testautomation-web/testautomation-web/ -s\"",
+    "test:confFile": "testcafe"
+  },
+  "author": "EliasQA",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "testcafe": "^3.0.0",
+    "testcafe-reporter-html": "^1.4.6",
+    "typescript": "^5.1.6"
+  }
+}

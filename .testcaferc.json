@@ -1,0 +1,15 @@
+{
+    "browsers": ["chrome", "edge", "firefox"],
+    "baseUrl": "http://localhost:8080/",
+    "src": "Tests/Sessions/*.ts",
+    "skipJsErrors":true,
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "Reports/screenshots/"
+    },
+    "reporter": {
+        "name": "html",
+        "output": "Reports/report.html"
+    }
+    
+}
