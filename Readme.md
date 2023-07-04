@@ -1,4 +1,4 @@
-# ABN mock login page assignment using Testcafe/Typescript
+# ABN mock login test automation assignment using Testcafe/Typescript
 
 ### Overview
 This README provides instructions and guidelines for Testcafe/Typescript framework to test ABN mock login page assignment. The assignment aims to assess my skills in designing and implementing automated FE tests for a specific application or system.
