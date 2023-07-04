@@ -6,9 +6,9 @@ This README provides instructions and guidelines for Testcafe/Typescript framewo
 ### Features
 - **Modular Design:** The framework follows page object model design pattern, allowing easy organization and maintenance of test cases 
 - **Cross-Browser Compatibility:** The framework supports testing login pages across multiple browsers(Chrome, Edge and Firefox)
-- **Test Data Management:** All test data, including different user credentials and authentications are collected into **./data/data.json**.
+- **Test Data Management:** All test data, including different user credentials and authentications are collected into **./Data/data.json**.
 - **Assertions and Validations:** The framework uses Testcafe assertions and validations to verify login success, failure, error messages, and other expected behaviors.
-- **Reporting and Logging:** Detailed reports and logs are generated as html report after each test run. Test report you can find by **./Reports/** in cluding screenshots for the failures 
+- **Reporting and Logging:** Detailed reports and logs are generated as html report after each test run. Test report you can find by **./Reports/** including screenshots for the failures 
 
 ### Test cases
 Three test cases: 
@@ -32,7 +32,7 @@ Three test cases:
 After cloning the project or downloading it:
 
 - Run ```npm install``` to install the required packages 
-- To Configure the Testcaf settings, such as browser preferences, test environment details, and any other required parameters from **./.testcafe.json**
+- To Configure the Testcaf settings, such as browser preferences, test environment details, and any other required parameters from **./.testcaferc.json**
 - To Configure Typescript from **tsconfig.json**
 - Test file is created at **./Tests/Session**
 
