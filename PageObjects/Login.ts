@@ -1,9 +1,9 @@
 import { Selector, t , ClientFunction} from "testcafe"
 
 // The Login class provides the functionality to login and verify succesful login and logout.
-// Defining element by using Tescafe selector with element html type and element's id 
-// Element's name format: element type + what the element present in the Dom:
-// Example: inputLoginButton (Element's type is input + the element present in the Dom The login button)
+// Defining element by using Testcafe selector with element html type and element id 
+// Element name format: element type + what the element present in the Dom:
+// Example: inputLoginButton (Element type is input + the element present in the Dom The login button)
 export default class Login
 {
     inputUsername = Selector('input').withAttribute("id", "email")
